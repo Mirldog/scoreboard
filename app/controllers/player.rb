@@ -1,6 +1,7 @@
 class Player
-  def initialize(name)
-    @name = name.strip
+
+  def initialize
+    @name = ''
     @wins = 0
     @losses = 0
     @goals = 0
@@ -16,7 +17,7 @@ class Player
   end
 
   def set_name(name)
-    @name = name
+    @name = name.strip
   end
 
   def add_win

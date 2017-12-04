@@ -1,5 +1,29 @@
 #title {
     text-align: center ;
-    color: darkslategray ;
+    color: chartreuse ;
+    background-color: black;
+    font-family: "Bodoni MT";
+    length: 100px;
 
+}
+#bground {
+    background: linear-gradient(darkslategray, white);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#txtarea{
+    width: 200px;
+    length: 400px;
+}
+#bttn{
+    width: 200px;
+    length: 300px;
+    margin-left: 5%;
+}
+#players{
+    margin-right: 5%;
+    width: 300px;
 }
