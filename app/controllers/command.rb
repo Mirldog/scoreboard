@@ -33,7 +33,7 @@ Created by Kyle Mirley
         @num -=1
         add_player
       end
-      player = Player.new
+      player = Player.new('')
       player.set_name(name)
       @players.store(name,player)
       if @size == 1
@@ -48,8 +48,7 @@ Created by Kyle Mirley
     if @players.has_key?(name)
       puts "2 players cannot have the same name"
     else
-      player = Player.new
-      player.set_name(name)
+      player = Player.new(name)
       @players.store(name,player)
       if @size == 1
         @player = player

@@ -1,7 +1,7 @@
 class Player
 
-  def initialize
-    @name = ''
+  def initialize(name)
+    @name = name
     @wins = 0
     @losses = 0
     @goals = 0
